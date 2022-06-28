@@ -1,5 +1,5 @@
-import React, {Component, useState} from "react";
-import "./../styles/App.css";
+import React, {useState} from "react";
+import './App.css';
 
 function App() {
   const [renderPara, setRenderPara] = useState(false);
@@ -23,3 +23,5 @@ function App() {
   );
 }
 
+
+export default App;
